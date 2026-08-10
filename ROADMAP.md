@@ -59,7 +59,7 @@ Make the particle move through 2D space.
 - [ ] User-controlled movement
 - [ ] Understand simulation state
 
-**Status:** 🔨 Next
+**Status:** ✅ Complete
 
 ---
 

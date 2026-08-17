@@ -76,7 +76,7 @@ Introduce changing velocity.
 - [ ] Test different acceleration values
 - [ ] Observe motion changes
 
-**Status:** ⏳ Planned
+**Status:** ✅ Complete
 
 ---
 
@@ -93,7 +93,7 @@ Introduce the first physical force.
 - [ ] Apply gravity to particle
 - [ ] Observe falling motion
 
-**Status:** ⏳ Planned
+**Status:**  ✅ Complete
 
 ---
 

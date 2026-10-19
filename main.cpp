@@ -17,8 +17,8 @@ int main()
     float x = 800;
     float y = 300;
 
-    float vx = 0;
-    float vy = 0;
+    float vx = -60;
+    float vy = -160;
 
     float ax = 0;
     float ay = 0;
@@ -121,6 +121,17 @@ int main()
             y = 10;
             vy = -vy;
         }
+        if (distance < 30)
+        {
+            vx = 0;
+            vy = 0;
+            x = blackHoleX;
+            y = blackHoleY;
+        }
+        DrawText(
+            TextFormat("Distance: %.2f", distance),
+            20, 20, 20, GREEN
+        );
 
         // -------------------------
         // DRAW
